@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+		"incremental": true,
+    "jsx": "preserve",
+    "jsxFactory": "React.createElement",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "alwaysStrict": true,
+    "sourceMap": true,
+		"noImplicitAny": false,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "allowJs": true,
+    "baseUrl": "./src",
+		"outDir": "./build",
+    "paths": {
+      "@app/*": ["./*"]
+    }
+  },
+  "include": ["./src/**/*", ".eslintrc.js"],
+  "exclude": ["node_modules"]
+}
